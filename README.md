@@ -35,12 +35,12 @@ Abre la Terminal (`Applications/Utilities/Terminal.app`) y escribe el siguiente 
 
 `npm install -g nodebots-interchange`
 
-Si todo ha instalado sin errores salta al [PASO FINAL](#PASO FINAL: Ejecuta un programa de parpadeo).
+Si todo ha instalado sin errores salta al [PASO FINAL](#paso-final-ejecuta-un-programa-de-parpadeo).
 
 #### Manual installs
 
-If you don't want to install using Homebrew then follow the various instructions given
-on these websites
+Si no puedes instalar Homebrew, entonces usa los siguientes enlaces 
+para instalar estos programas directamente.
 
 * [Node Version Manager](https://github.com/creationix/nvm) then install the latest long term support version of Node.js with `nvm install --lts`
 * [Git version control](https://git-scm.com/)
