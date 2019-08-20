@@ -26,10 +26,10 @@ surtido efecto.
 
 Ahora que ya tenemos las herramientas mas basicas vamos a instalar el resto del software.
 
-* Instala los drivers para CH340 - lo que esta en un directorio llamado
-[drivers](drivers/CH34x_Install_V1.3.pkg)
+* Instala los drivers para [CH340](https://www.geekfactory.mx/tutoriales/tutoriales-arduino/driver-ch340-para-arduino-chinos-o-genericos/) 
+- lo que esta en un directorio llamado [drivers](drivers/CH34x_Install_V1.3.pkg)
 
-Ahora vamos a instalar [Interchange](https://github.com/johnny-five-io/nodebots-interchange), un programa que nos ayuda a quemar `Firmata` en los microcontroladores. 
+Ahora vamos a instalar [Interchange](https://github.com/johnny-five-io/nodebots-interchange), un programa que nos ayuda a quemar [`Firmata`](https://www.youtube.com/watch?v=NlEgaMNKj8w) en los microcontroladores. 
 
 Abre la Terminal (`Applications/Utilities/Terminal.app`) y escribe el siguiente comando.
 
