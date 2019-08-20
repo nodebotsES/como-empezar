@@ -26,8 +26,7 @@ surtido efecto.
 
 Ahora que ya tenemos las herramientas mas basicas vamos a instalar el resto del software.
 
-* Instala los drivers para [CH340](https://www.geekfactory.mx/tutoriales/tutoriales-arduino/driver-ch340-para-arduino-chinos-o-genericos/) 
-- lo que esta en un directorio llamado [drivers](drivers/CH34x_Install_V1.3.pkg)
+* Instala los drivers para [CH340](https://www.geekfactory.mx/tutoriales/tutoriales-arduino/driver-ch340-para-arduino-chinos-o-genericos/) lo que esta en un directorio llamado [drivers](drivers/CH34x_Install_V1.3.pkg)
 
 Ahora vamos a instalar [Interchange](https://github.com/johnny-five-io/nodebots-interchange), un programa que nos ayuda a quemar [`Firmata`](https://www.youtube.com/watch?v=NlEgaMNKj8w) en los microcontroladores. 
 
@@ -60,7 +59,7 @@ Linux es generalmente mas facil de instalar y da menos problemas. Instala los si
 * nodejs usando [NVM](https://github.com/creationix/nvm) - o, si no
 [sigue las direcciones marcadas aqui](http://nodejs.org). No uses `apt-get` para instalar node.js, ya que siempre lleva versiones muy antiguas.
 * [Interchange](https://github.com/johnny-five-io/nodebots-interchange)
-`npm install -g nodebots-interchange`
+`npm install -g nodebots-interchange`, un programa que nos ayuda a quemar [`Firmata`](https://www.youtube.com/watch?v=NlEgaMNKj8w) en los microcontroladores. 
 
 #### Software opcional, pero que merece la pena tener.
 
