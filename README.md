@@ -2,7 +2,7 @@
 
 # Taller de Nodebots - Como Empezar
 
-Si tienes todo esto instalado antes de llegar no hace falta hacer estos pasos, simplemente salta al [PASO FINAL](#paso-final-ejecuta-un-programa-de-parpadeo). 
+Si tienes todo esto instalado antes de llegar no hace falta seguir estos pasos, simplemente salta al [PASO FINAL](#paso-final-ejecuta-un-programa-de-parpadeo). 
 
 Si no, no te preocupes, solo sigue las instrucciones de abajo.
 
@@ -82,19 +82,13 @@ Asegurate de tener instalados los siguientes programas:
 * Drivers CH340 para Arduino Nano USB: [Instala el ZIP en el directorio de 'drivers'](drivers/CH340%20windows.zip)
 * Instalador de Firmata [Interchange](https://github.com/johnny-five-io/nodebots-interchange)
 
+`npm install -g nodebots-interchange`
+
 Programas opcionales (pero que agilizan mucho si hay problemas).
 
 * [Arduino IDE (version 1.6.7 o mayor)](https://www.arduino.cc/en/Main/Software#ad_container_zone)
 
-`npm install -g nodebots-interchange`
-
-```
-    npm install johnny-five
-```
-
-This will shake out any problems you've got. Occasionally there is trouble with
-Windows but they are fairly well documented and a quick google of the error
-message will usually resolve it.
+A veces hay problemas instalando 'Interchange'. Si tienes Arduino IDE instalado no se necesita usar Interchange.
 
 ## PASO FINAL: Ejecuta un programa de parpadeo
 
