@@ -1,0 +1,22 @@
+{
+  "name": "como-empezar",
+  "version": "1.0.0",
+  "description": "Como empezar con nodebots",
+  "main": "blink.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodebotsES/como-empezar.git"
+  },
+  "author": "Esteban de Salas",
+  "license": "CCv3",
+  "bugs": {
+    "url": "https://github.com/nodebotsES/como-empezar/issues"
+  },
+  "homepage": "https://github.com/nodebotsES/como-empezar#readme",
+  "dependencies": {
+    "johnny-five": "^1.3.1"
+  }
+}
