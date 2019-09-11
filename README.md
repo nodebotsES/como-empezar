@@ -95,29 +95,29 @@ message will usually resolve it.
 
 ## PASO FINAL: Ejecuta un programa de parpadeo
 
-Next, if you have an arduino nano to hand, you might want to get it setup with firmata.
+Siguiente, saca el microcontrolador Arduino e instala Firmata. Este es el programa que ponemos en el Arduino para mandarle instrucciones por USB desde JavaScript.
 
-Make sure its connected to the PC by USB first, there should be a red LED lighting up when you do.
-
-```
-interchange install StandardFirmata -a nano
-```
-
-To test you've got Firmata running, you'll need a basic blink program. First install `simplebot` project.
+Conectalo al PC primero, si se enciende una luz roza (POW) ya puedes dar el siguiente paso.
 
 ```
-git clone https://github.com/nodebotsau/simplebot.git
-cd simplebot
+interchange install StandardFirmata -a uno
+```
+
+Para probar si funciona firmata necesitamos un programa basico de blink (parpadeo del LED). Primero instala este projecto y sigue las intrucciones en la terminal abajo.
+
+```
+git clone https://github.com/nodebotsES/como-empezar.git
+cd como-empezar
 npm install
 ```
 
-Then run the blink program: 
+Y luego ejecuta el programa para parpadear el LED: 
 
 ```
-node examples/blink.js
+node blink.js
 ```
 
-If it all goes well. You'll see a blinking LED positioned next to the L on your arduino.
+Si va todo bien veras parpadear el LED al lado de la L en el arduino.
 
 ```
 [ ] RX
@@ -128,13 +128,13 @@ If it all goes well. You'll see a blinking LED positioned next to the L on your 
 
 ![blink.jpg](blink.jpg)
 
-Open the [`examples/blink.js`](https://github.com/nodebotsau/simplebot/blob/master/examples/blink.js) program in an editor and look at the code. Its currently set to blink every 500ms. 
+Abre el fichero [`blink.js`](https://github.com/nodebotsES/como-empezar/blob/master/blink.js) en un editor (recomiendo Visual Studio Code) y mira el codigo. Esta puesto para papadear cada 500ms. 
 
-Try changing this to 100ms and see if it blinks faster now.
+Cambia esto a 100ms y mira si parpadea mas rapido.
 
 ```js
 board.on("ready", function() {
   var led = new five.Led(13);
-  led.blink(500);  //  <--- try changing this value see if it blinks faster/slower
+  led.blink(500);  //  <--- cambia esto para ver si parpadea mas rapido/lento
 });
 ```
