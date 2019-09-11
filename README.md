@@ -2,7 +2,7 @@
 
 # Taller de Nodebots - Como Empezar
 
-Si tienes todo esto instalado antes de llegar no hace falta gastar mas tiempo, simplemente salta al [PASO FINAL](#paso-final-ejecuta-un-programa-de-parpadeo). 
+Si tienes todo esto instalado antes de llegar no hace falta hacer estos pasos, simplemente salta al [PASO FINAL](#paso-final-ejecuta-un-programa-de-parpadeo). 
 
 Si no, no te preocupes, solo sigue las instrucciones de abajo.
 
@@ -71,18 +71,21 @@ Si todo ha instalado sin errores puedes saltar al [PASO FINAL](#paso-final-ejecu
 
 ### OPCION 3: Windows
 
-_Please note_
+_Nota_
 
-Windows users can have the most problems with getting up and running of anyone.
-Please ensure you can install Johnny Five before coming to the event or you may
-slow down on the day.
+Usuarios de windows generalmente tienen mas problemas.
 
-Install the following:
+Asegurate de tener instalados los siguientes programas:
 
-* Git: [Windows Installer for Git](https://git-scm.com/downloads)
-* NodeJS: [Windows Installer here](http://nodejs.org/en/download/)
-* Serial driver software: [In the drivers folder install the windows package](drivers/CH340%20windows.zip)
-* Install [Interchange](https://github.com/johnny-five-io/nodebots-interchange)
+* Git: [Instalador Git](https://git-scm.com/downloads)
+* NodeJS: [Instalador de Windows](http://nodejs.org/en/download/)
+* Drivers CH340 para Arduino Nano USB: [Instala el ZIP en el directorio de 'drivers'](drivers/CH340%20windows.zip)
+* Instalador de Firmata [Interchange](https://github.com/johnny-five-io/nodebots-interchange)
+
+Programas opcionales (pero que agilizan mucho si hay problemas).
+
+* [Arduino IDE (version 1.6.7 o mayor)](https://www.arduino.cc/en/Main/Software#ad_container_zone)
+
 `npm install -g nodebots-interchange`
 
 ```
